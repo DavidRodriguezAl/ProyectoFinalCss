@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html" class="active">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content" class="flex-container">
+        <section class="contact-form">
+            <h1>Contáctanos</h1>
+            <form>
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <aside class="contact-info">
+            <h2>Información de contacto</h2>
+            <div class="info-item">
+                <img src="./images/oficina.jpg" alt="Oficina">
+                <p>Dirección: Calle Principal 123, Ciudad</p>
+                <p>Teléfono: +123 456 7890</p>
+                <p>Email: info@misitioweb.com</p>
+            </div>
+        </aside>
+
+        <div class="news-item">
+            <h3>Horario Extendido de Atención</h3>
+            <p>A partir del próximo lunes 19 de junio, ampliaremos nuestro horario de atención al cliente:</p>
+            <table>
+                <tr>
+                    <th>Días</th>
+                    <th>Horario</th>
+                </tr>
+                <tr>
+                    <td>Lunes a Viernes</td>
+                    <td>8:00 - 20:00 hrs</td>
+                </tr>
+                <tr>
+                    <td>Sábados</td>
+                    <td>9:00 - 14:00 hrs</td>
+                </tr>
+            </table>
+            <p>Estamos comprometidos a brindarte un mejor servicio y responder a todas tus consultas de manera oportuna.</p>
+            <p class="news-date">Actualizado: 02 de junio, 2025</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mi Sitio Web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
